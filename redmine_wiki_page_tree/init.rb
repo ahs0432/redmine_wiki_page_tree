@@ -1,4 +1,5 @@
-require_dependency 'redmine_wiki_page_tree_hook_listener'
+# 비정상 작동으로 인한 require_dependency 비활성화
+#require_dependency 'redmine_wiki_page_tree_hook_listener'
 
 Redmine::Plugin.register :redmine_wiki_page_tree do
   name 'Redmine Wiki Page Tree Plugin'

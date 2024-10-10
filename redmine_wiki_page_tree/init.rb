@@ -3,9 +3,9 @@
 
 Redmine::Plugin.register :redmine_wiki_page_tree do
   name 'Redmine Wiki Page Tree Plugin'
-  author 'Shigeru Nakajima'
+  author 'Chance'
   description 'Redmine plugin to show the page tree view at the sidebar.'
-  version '0.0.2'
-  url 'https://github.com/ledsun/redmine_wiki_page_tree'
-  author_url 'https://github.com/ledsun'
+  version '0.0.3'
+  url 'https://github.com/ahs0432/redmine_wiki_page_tree'
+  author_url 'https://github.com/ahs0432'
 end

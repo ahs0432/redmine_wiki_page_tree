@@ -91,13 +91,14 @@ class RedmineWikiPageTreeHookListener < Redmine::Hook::ViewListener
     end
 
     page_arr = [page_id]
-
-    while true
-      if page_parent[page_id] == ""
-        break
-      else
-        page_arr.append(page_parent[page_id])
-        page_id = page_parent[page_id]
+    if page_id 
+      while true
+        if page_parent[page_id] == ""
+          break
+        else
+          page_arr.append(page_parent[page_id])
+          page_id = page_parent[page_id]
+        end
       end
     end
 
